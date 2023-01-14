@@ -31,15 +31,24 @@ body{
 
 /* CONFIG DE CADA SECTION */
 
-    #telefone{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 626px;
-        width: 310px;
-        border-radius: 50px;
-        background: url(../imagens/frame-iphone.png);
-        background-repeat: no-repeat;
+#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 626px;
+    width: 310px;
+    border-radius: 50px;
+    background: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
 
-    }
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 268px;
+    
+}
